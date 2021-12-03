@@ -1,0 +1,21 @@
+Udemy environment setup
+***********************
+
+1. We are using miniforge to install all the required packages in the system
+2. python virtual environment doesn't work becauase some packages are not supported for Macbook M1 chip
+3. Steps to set up miniforge conda environment
+	3.1 install miniforge using the command 'brew install miniforge'
+	3.2 create environment 'conda create -n .udemy-venv python'
+	3.3 activate the environment 'conda activate .udemy-venv'
+
+
+
+
+Help
+*****
+1. List all conda environments
+	1.1 conda env list
+
+2. Deactivate conda
+	2.1 conda deactivate
+
