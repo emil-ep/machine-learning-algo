@@ -8,6 +8,10 @@ Udemy environment setup
 	3.2 create environment 'conda create -n .udemy-venv python'
 	3.3 activate the environment 'conda activate .udemy-venv'
 
+4. use tensorflow environment for section 9
+	4.1 create a new conda environment specifically for tensorflow
+	4.2 
+
 
 
 
