@@ -7,11 +7,19 @@ Udemy environment setup
 	3.1 install miniforge using the command 'brew install miniforge'
 	3.2 create environment 'conda create -n .udemy-venv python'
 	3.3 activate the environment 'conda activate .udemy-venv'
+	3.4 install scikit learn by the command "conda install scikit-learn"
 
 4. use tensorflow environment for section 9
 	4.1 create a new conda environment specifically for tensorflow
-	4.2 
+	4.2 conda create --name tensorflow_m1 python==3.9
+	4.3 conda activate tensorflow_m1
+	4.4 conda install -c apple tensorflow-deps
+	4.5 pip install tensorflow-macos
+	4.6 pip install tensorflow-metal
 
+
+
+	
 
 
 
