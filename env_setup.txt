@@ -9,7 +9,7 @@ Udemy environment setup
 	3.3 activate the environment 'conda activate .udemy-venv'
 	3.4 install scikit learn by the command "conda install scikit-learn"
 
-4. use tensorflow environment for section 9
+4. use tensorflow environment for section 9, 10
 	4.1 create a new conda environment specifically for tensorflow
 	4.2 conda create --name tensorflow_m1 python==3.9
 	4.3 conda activate tensorflow_m1
