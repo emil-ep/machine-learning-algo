@@ -23,4 +23,12 @@ training_set = train_datagen.flow_from_directory(
 #feature scaling for test set, but don't apply augmentation(transformation)
 test_datagen = ImageDataGenerator(rescale=1./255)
 
+test_set = test_datagen.flow_from_directory(
+    '10.convolutional-neural-network/dataset/test_set',
+    target_size=(64, 64),
+    batch_size=32,
+    class_mode='binary'
+)
+#Building the CNN
+
 
